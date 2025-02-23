@@ -12,8 +12,8 @@ app.post('/bfhl', (req, res) => {
             return res.status(400).json({ is_success: false, error: "Invalid input. Ensure 'data' is an array of strings." });
         }
         
-        const user_id = "john_doe_17091999";
-        const email = "john@xyz.com";
+        const user_id = "samarth_yadav_21082005";
+        const email = "22BCS13134@cuchd.in";
         const roll_number = "22BCS13134";
         
         const numbers = data.filter(item => !isNaN(item));
